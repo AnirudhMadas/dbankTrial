@@ -4,19 +4,14 @@
       "main": "src/dbank/main.mo",
       "type": "motoko"
     },
-    "dbank_assets": {
-      "dependencies": [
-        "dbank"
-      ],
-      "frontend": {
-        "entrypoint": "src/dbank_assets/src/index.html"
-      },
-      "source": [
-        "src/dbank_assets/assets",
-        "dist/dbank_assets/"
-      ],
-      "type": "assets"
-    }
+   "dbank_assets": {
+  "type": "assets",
+  "dependencies": ["dbank"],
+  "source": [
+    "src/dbank_assets/assets"
+  ]
+}
+
   },
   "defaults": {
     "build": {
