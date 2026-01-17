@@ -4,6 +4,11 @@ actor DBank {
   var currentValue = 10;
   currentValue := 20;
 
-  Debug.print("Hi");
-  
+  func topUp() {
+    currentValue += 1;
+    Debug.print(debug_show (currentValue));
+  };
+  topUp();
+  topUp();
+
 }
