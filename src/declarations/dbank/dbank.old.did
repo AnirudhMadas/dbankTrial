@@ -1,0 +1,5 @@
+service : {
+  checkBalance: () -> (nat) query;
+  topUp: (nat) -> (nat);
+  withDrawl: (nat) -> (nat);
+}
